@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+nav{
+    background-color: bisque;
+    display: flex;
+    /* align-items: center; */
+    flex-flow: wrap;
+    /* justify-content: space-between; */
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 30%;
+}
+
+nav ul li{
+    
+    list-style-type: none;
+    display: inline-block;
+    padding: 1vh 2vw;
+    padding-top: 5%;
+}
+nav ol li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 1vh 2vw;
+}
+nav ul li a{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ol li a{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: blue;
+    transition: .3s;
+
+}
+nav ol li a:hover{
+    color: blue;
+    transition: .3s;
+
+}
+
+.paragraphe{
+    color:blue;
+    width:50%;
+    padding: 4vh 6vw;
+
+}
+section{
+     display: flex; 
+     justify-content: space-between;
+     flex-flow: wrap;
+     padding: 4vh 6vw;
+    
+
+    
+    /* margin: 0vh 5vw;
+    padding-top: 1%; */
+
+
+}
+section div{
+
+    background-color: antiquewhite;
+    border: 1px solid black;
+    
+    /* width: 20vw; */
+    /* padding: 5%; */
+    /* padding-left: 2%; */
+    padding:1%;
+    margin-bottom: 10%;
+
+}
+img{
+     width: 150px;
+    padding: 4vh 2vw; 
+
+}
+.navbar_logo{
+    width: 7%;
+    padding: 1%;
+
+
+}
+div h4{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.paragraphe p{
+    padding-top: 15px;
+}
+.gray{
+    color: gray;
+}
+.green{
+    color: green;
+}
+@media only screen and (max-width: 550px) {
+    .navbar_logo{
+        margin-left: 50%;
+        width: 20%;  
+    }
+    nav ul{
+        display: flex;
+        flex-shrink: 0;
+        margin-top: 5%;
+        width: 550px;
+    }
+    nav ul li{
+        border: 1px solid black;
+        padding: 2vh 3vw;
+        font-size: 14px;
+        
+    }
+    nav ol {
+        
+        display: flex;
+        flex-shrink: 0;
+    }
+    nav ol li{
+        align-items: center;
+        
+    }
+    section div{
+        width: 60%;
+        margin-top: 5%; 
+        margin-left: 20%; 
+        /* text-align: center; */
+    }
+    .paragraphe {
+        width:80%;
+        font-size: small;
+    }
+    section{
+        flex-direction: column;
+        
+    }
+    img{
+        margin-left: 15%;
+    }
+}
+
+    
